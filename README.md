@@ -1,5 +1,5 @@
 # Pentis
-Project for a Aalto university course ELEC-A7151 - Object oriented programming with C++.
+Project for the Aalto university course ELEC-A7151 - Object oriented programming with C++.
 
 ## Introduction
 This tile-matching project is a classic Tetris with a possibility to play either Tetris or Pentis. Tetris is a well known tile-matching puzzle video game where the players objective is to guide pieces falling from the upper edge of the screen and try to keep the construction as low as possible. When a row is complete with tiles, it disappears.
