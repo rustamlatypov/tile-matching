@@ -299,15 +299,15 @@ Pentomino Game::randPentomino() {
 		if ( i < pentoProb + percInc*(getRemoves()/rmvInc) ) // Player gets a pentomino
 			m = b.pentominoes;
 		else {
-			// Mono-, do-, tro- and tetrominoes are distributed such that the player
-			// is 2^(n-1) times as likely to get a block of size n than a monomino:
+			// Mono-, do-, tro- and tetrominoes are distributed to favour larger pieces by a
+            // factor depending on the block size n and the collection size
 
 			// Coefficient * Collection sizes
-			auto m1s = 1*b.monominoes.size();	// 1*1
-			auto m2s = 2*b.dominoes.size();		// 2*1
-			auto m3s = 4*b.trominoes.size();	// 4*2
-			auto m4s = 8*b.tetrominoes.size();	// 8*7
-
+			auto m1s = 1*b.monominoes.size();	// 1*1=1
+			auto m2s = 2*b.dominoes.size();		// 2*1=2
+			auto m3s = 4*b.trominoes.size();	// 4*2=8
+			auto m4s = 8*b.tetrominoes.size();	// 8*7=56
+            
 			unsigned int i = rand() % (m1s + m2s + m3s + m4s);
 
 			if (i < m1s)
