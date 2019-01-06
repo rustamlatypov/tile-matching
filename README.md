@@ -27,9 +27,9 @@ Following programs and libraries are required to compile the project:
 • libsfml-dev (2.4.2+dfsg-4)
 ```
    1. On terminal go to the project directory (Directory should contain directories: ```doc```, ```plan```, ```res```, ```src``` and files ```Makefile```, ```README.md```.
-   2. In the directory, use the following command: 
+   2. In the directory, use  command: 
     ``` make ```
-   3. To run the program, use the following command: 
+   3. To run the program, use command: 
     ```./main```
    4. After the compiled files are no longer needed, you can delete them using command:
     ```make clean```
