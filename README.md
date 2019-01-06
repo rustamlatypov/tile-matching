@@ -2,14 +2,15 @@
 Project for the Aalto university course ELEC-A7151 - Object oriented programming with C++ (fall 2018).
 
 ## Introduction
-This tile-matching project is a classic Tetris with the possibility to play either Tetris or Pentis. Tetris is a well known tile-matching puzzle video game where the players objective is to guide pieces falling from the upper edge of the screen and try to keep the construction as low as possible. When a row is complete with tiles, it disappears.
-The game becomes more difficult as it progresses, and ends when the construction reaches the point where the new spawning piece overlaps the contruction. The pieces are controlled by arrow-keys and can be dropped instantly by pressing 'space'.
+This tile-matching project is a classic Tetris with the possibility to play either Tetris or Pentis. Tetris is a well known tile-matching puzzle video game where the players objective is to guide 4-tile-size blocks falling from the upper edge of the screen and try to keep the stack as low as possible. The Pentis game mode introduces 1, 2, 3, and 5-tile-size blocks into the game and its difficulty increases differently than in Tetris. 
 
-The game rewards the player basic points for successfully landing a piece, one point for each square the piece contains. Elimination points are awarded based on the size of the elimination — the more rows eliminated simultaneously, the better. Points are also awarded for every instant drop, according to the height the tile is dropped from.
+The blocks are controlled by arrow-keys and can be dropped instantly by pressing \code{space}. When a row is complete with tiles, it disappears. The game ends when the stack reaches the point where the new spawning block overlaps with the stack. 
 
-If the player reaches top-10 in the leaderboard, the player has the option to submit his/hers high score and view leaderboard standings. This information is stored locally in a text file. The speed of the game increases specifically as a function of the amount of eliminations and not of the amount of eliminated rows. If the player doesnt reach top-10, the current top-10 leaderboard is shown.
+Both game modes reward the player basic points for successfully landing a block, one point for each tile the block contains. Elimination points are awarded based on the size of the elimination — the more rows eliminated simultaneously, the better. Drop points are also awarded for every instant drop, according to the height the block is dropped from.
 
-The Pentis game mode introduces 1, 2, 3, and 5-tile-size pieces into the game. The drop-rate of these special blocks is also a function of the amount of eliminations. Pentis is considered a more challenging mode of play. Tetris is faster that Pentis, but only has 7 different blocks. Pentis has 29 different pieces overall. The point-award system and game mechanics are identical to Tetris. However, the speed-up on Pentis is slower since it is already more challenging. A separate top-10 leaderboard is allocated for the Pentis game-mode.
+The leaderboard keeps track of the top-10 scores and the names of those players. This information is stored locally in a text file. If the player reaches the top-10, the player has the option to submit his/hers score and view leaderboard standings. If the player doesn't reach the top-10, the current leaderboard is shown. Separate leaderboards are kept for the game modes.
+
+The difficulty of both game modes increase specifically as a function of the number of eliminations and not of the number of eliminated rows. Tetris spawns the same distribution of blocks but the falling speed increases. The falling speed in Pentis stays constant but the 5-tile-size blocks spawn frequently. Tetris is faster that Pentis, but only has 7 different blocks. Pentis has 29 different blocks overall and is considered a more challenging mode of play.
 
 ## Instructions for building and using
 

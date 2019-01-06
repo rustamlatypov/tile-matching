@@ -300,7 +300,7 @@ Pentomino Game::randPentomino() {
 			m = b.pentominoes;
 		else {
 			// Mono-, do-, tro- and tetrominoes are distributed such that the player
-			// is 2^n times as likely to get a block of size n than a monomino:
+			// is 2^(n-1) times as likely to get a block of size n than a monomino:
 
 			// Coefficient * Collection sizes
 			auto m1s = 1*b.monominoes.size();	// 1*1

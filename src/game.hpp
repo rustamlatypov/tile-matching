@@ -46,7 +46,7 @@ private:
     
     // Difficulty
 	int removes = 0;      // how many times rows have been removed
-    int Speed = 500; // time loop = 1000ms - startSpeed
+    int Speed = 500;      // time loop = 1000ms - startSpeed
     int speedUp = 35;     // how much game speeds up when lines are removed
 
 	// Controls
