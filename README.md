@@ -1,7 +1,7 @@
 # Pentis
 Project for the Aalto University course ELEC-A7151 - Object oriented programming with C++.
 
-Created on September - November, 2018.
+Created during September - November, 2018.
 
 ## Introduction
 This tile-matching project is a classic Tetris with the possibility to play either Tetris or Pentis. Tetris is a well known tile-matching puzzle video game where the players objective is to guide 4-tile-size blocks falling from the upper edge of the screen and try to keep the stack as low as possible. The Pentis game mode introduces 1, 2, 3, and 5-tile-size blocks into the game and its difficulty increases differently than in Tetris. 
