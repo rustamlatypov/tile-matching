@@ -12,7 +12,7 @@ The blocks are controlled by arrow-keys and can be dropped instantly by pressing
 
 Both game modes reward the player basic points for successfully landing a block, one point for each tile the block contains. Elimination points are awarded based on the size of the elimination — the more rows eliminated simultaneously, the better. Drop points are also awarded for every instant drop, according to the height the block is dropped from.
 
-The leaderboard keeps track of the top-10 scores and the names of those players. This information is stored locally in a text file. If the player reaches the top-10, the player has the option to submit his/hers score and view leaderboard standings. If the player doesn't reach the top-10, the current leaderboard is shown. Separate leaderboards are kept for the game modes.
+The leaderboard keeps track of the top-10 scores and the names of those players. This information is stored locally in a text file. If the player reaches the top-10, the player has the option to submit his/hers name and score and view leaderboard standings. If the player doesn't reach the top-10, the current leaderboard is shown. Separate leaderboards are kept for the game modes.
 
 The difficulty of both game modes increase specifically as a function of the number of eliminations and not of the number of eliminated rows. Tetris spawns the same distribution of blocks but the falling speed increases. The falling speed in Pentis stays constant but the 5-tile-size blocks starts to spawn more frequently. Tetris is faster that Pentis, but only has 7 different blocks. Pentis has 29 different blocks overall and is considered a more challenging mode of play.
 
@@ -20,7 +20,7 @@ The difficulty of both game modes increase specifically as a function of the num
 
 ### Software prerequisites
 
-Pentis is designed to be run on a Linux operating system.
+Pentis is designed to run on a Linux operating system.
 
 ### Compiling the program
 
