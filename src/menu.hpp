@@ -58,7 +58,7 @@ int Menu::Run(RenderWindow &App)
     // Permanent
     Menu5.setFont(font);
     Menu5.setCharacterSize(50);
-    Menu5.setString("Highscore");
+    Menu5.setString("Highscores");
     Menu5.setPosition({ 100, 360 });
     
     Menu6.setFont(font);

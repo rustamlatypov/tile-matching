@@ -6,13 +6,13 @@ Created during November - December, 2018.
 
 ## Introduction
 
-This tile-matching project is a classic Tetris with the possibility to play either Tetris or Pentis. Tetris is a well known tile-matching puzzle video game where the players objective is to guide 4-tile-size blocks falling from the upper edge of the screen and try to keep the stack as low as possible. Pentis introduces 1-, 2-, 3-, and 5-tile-size blocks into the game and its difficulty increases differently than in Tetris. 
+This tile-matching project is a classic Tetris with the possibility to play either Tetris or Pentis. Tetris is a well known tile-matching puzzle video game where the players objective is to guide 4-tile-size blocks falling from the upper edge of the screen and try to keep the stack as low as possible. Pentis introduces 1-, 2-, 3-, and 5-tile-size blocks into the game and its difficulty increases differently than in Tetris.
 
-The blocks are controlled by arrow-keys and can be dropped instantly by pressing ```space```. When a row is complete with tiles, it disappears. The game ends when the stack reaches the point where the new spawning block overlaps with the stack. 
+The blocks are controlled by arrow-keys and can be dropped instantly by pressing ```space```. When a row is complete with tiles, it disappears. The game ends when the stack reaches the point where the new spawning block overlaps with the stack.
 
 Both game modes reward the player basic points for successfully landing a block, one point for each tile the block contains. Elimination points are awarded based on the size of the elimination — the more rows eliminated simultaneously, the better. Drop points are also awarded for every instant drop, according to the height the block is dropped from.
 
-The leaderboard keeps track of the top-10 scores and the names of those players. This information is stored locally in a text file. If the player reaches the top-10, the player has the option to submit his/hers name and score and view leaderboard standings. If the player doesn't reach the top-10, the current leaderboard is shown. Separate leaderboards are kept for the game modes.
+The game keeps track of the top-10 scores and the names of those players. This information is stored locally in a text file. If the player reaches the top-10, the player has the option to submit his/hers name and score and view highscore standings. If the player doesn't reach the top-10, the current highscores are shown. Separate highscores are kept for the game modes.
 
 The difficulty of both game modes increase specifically as a function of the number of eliminations and not of the number of eliminated rows. Tetris spawns the same distribution of blocks but the falling speed increases. The falling speed in Pentis stays constant but the 5-tile-size blocks starts to spawn more frequently. Tetris is faster that Pentis, but only has 7 different blocks. Pentis has 29 different blocks overall and is considered a more challenging mode of play.
 
@@ -30,13 +30,13 @@ Following programs and libraries are required to compile the project:
 • g++ (4:7.3.0-3ubuntu2)
 • libsfml-dev (2.4.2+dfsg-4)
 ```
-   1. On terminal go to the project directory (Directory should contain directories: ```doc```, ```plan```, ```res```, ```src``` and files ```Makefile```, ```README.md```.
-   2. In the directory, use  command: 
-    ``` make ```
-   3. To run the program, use command: 
-    ```./main```
-   4. After the compiled files are no longer needed, you can delete them using command:
-    ```make clean```
+1. On terminal go to the project directory (Directory should contain directories: ```doc```, ```plan```, ```res```, ```src``` and files ```Makefile```, ```README.md```.
+2. In the directory, use  command: 
+``` make ```
+3. To run the program, use command: 
+```./main```
+4. After the compiled files are no longer needed, you can delete them using command:
+```make clean```
 
 ## Authors
 
