@@ -12,6 +12,7 @@
 		F217B415222C582100DE117C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F217B40E222C582100DE117C /* main.cpp */; };
 		F217B416222C582100DE117C /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F217B40F222C582100DE117C /* game.cpp */; };
 		F217B418222C587A00DE117C /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = F217B417222C587A00DE117C /* test.c */; };
+		F2FC1AAA222C59DA002DEDCC /* je.c in Sources */ = {isa = PBXBuildFile; fileRef = F2FC1AA9222C59DA002DEDCC /* je.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -48,6 +49,7 @@
 		F217B410222C582100DE117C /* cScreen.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = cScreen.hpp; sourceTree = "<group>"; };
 		F217B412222C582100DE117C /* documentation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = documentation.pdf; sourceTree = "<group>"; };
 		F217B417222C587A00DE117C /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+		F2FC1AA9222C59DA002DEDCC /* je.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = je.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 		F217B3E1222C580100DE117C = {
 			isa = PBXGroup;
 			children = (
+				F2FC1AA9222C59DA002DEDCC /* je.c */,
 				F217B417222C587A00DE117C /* test.c */,
 				F217B411222C582100DE117C /* doc */,
 				F217B404222C582100DE117C /* Makefile */,
@@ -176,6 +179,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2FC1AAA222C59DA002DEDCC /* je.c in Sources */,
 				F217B418222C587A00DE117C /* test.c in Sources */,
 				F217B413222C582100DE117C /* Makefile in Sources */,
 				F217B414222C582100DE117C /* pentomino.cpp in Sources */,
