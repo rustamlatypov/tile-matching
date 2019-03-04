@@ -1,4 +1,4 @@
-# Pentis
+# Classic Tetris with the possibility to play Pentis.
 
 Project for the Aalto University course ELEC-A7151 - Object oriented programming with C++.
 
