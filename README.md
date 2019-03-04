@@ -2,7 +2,7 @@
 
 Project for the Aalto University course ELEC-A7151 - Object oriented programming with C++.
 
-Created during November - December, 2018.
+Developed during November - December, 2018.
 
 ## Introduction
 
