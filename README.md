@@ -6,7 +6,7 @@ Developed during November - December, 2018.
 
 ## Introduction
 
-This tile-matching project is a classic Tetris with the possibility to play either Tetris or Pentis. Tetris is a well known tile-matching puzzle video game where the players objective is to guide 4-tile-size blocks falling from the upper edge of the screen and try to keep the stack as low as possible. Pentis introduces 1-, 2-, 3-, and 5-tile-size blocks into the game and its difficulty increases differently than in Tetris.
+This tile-matching project is a classic Tetris with the possibility to play either Pentis. Tetris is a well known tile-matching puzzle video game where the players objective is to guide 4-tile-size blocks falling from the upper edge of the screen and try to keep the stack as low as possible. Pentis introduces 1-, 2-, 3-, and 5-tile-size blocks into the game and its difficulty increases differently than in Tetris.
 
 The blocks are controlled by arrow-keys and can be dropped instantly by pressing ```space```. When a row is complete with tiles, it disappears. The game ends when the stack reaches the point where the new spawning block overlaps with the stack.
 
