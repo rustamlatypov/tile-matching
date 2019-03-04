@@ -1,4 +1,4 @@
-# A classic Tetris with a Pentis game expansion
+# Classic Tetris with a Pentis game expansion
 
 Project for the Aalto University course ELEC-A7151 - Object oriented programming with C++.
 
