@@ -14,7 +14,7 @@ Both game modes reward the player basic points for successfully landing a block,
 
 The game keeps track of the top-10 scores and the names of those players. This information is stored locally in a text file. If the player reaches the top-10, the player has the option to submit his/hers name and score and view highscore standings. If the player doesn't reach the top-10, the current highscores are shown. Separate highscores are kept for the game modes.
 
-The difficulty of both game modes increase specifically as a function of the number of eliminations and not of the number of eliminated rows. Tetris spawns the same distribution of blocks but the falling speed increases. The falling speed in Pentis stays constant but the 5-tile-size blocks starts to spawn more frequently. Tetris is faster that Pentis, but only has 7 different blocks. Pentis has 29 different blocks overall and is considered a more challenging mode of play.
+The difficulty of both game modes increase specifically as a function of the number of eliminations and not of the number of eliminated rows. Tetris spawns the same distribution of blocks but the falling speed increases. The falling speed in Pentis stays constant but the 5-tile-size blocks starts to spawn more frequently. Tetris is faster that Pentis, but only has 7 different blocks. Pentis has 29 different blocks overall and is considered to be a more challenging game mode.
 
 ## Instructions for building and using
 
