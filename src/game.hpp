@@ -30,14 +30,13 @@ public:
 private:
     int TSIZE = 50;  // WIDTH OF GAME TILE IN PIXELS
     bool Running = false;
-    int Grid[20][10] = {0}; // Grid dimensions
+    int Grid[20][10] = {{0}}; // Grid dimensions
     int Points = 0;
     int _gameMode;   // 0 = tetris, 1 = pentis
     Pentomino p;
     int curX;
     int curY;
     Matrix pentoCoord;
-    int end = 0;
     bool fastDrop = false;
 
 	// A vector holding a permutation of all 7 tetrominoes

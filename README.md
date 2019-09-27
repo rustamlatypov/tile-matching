@@ -19,13 +19,13 @@ The difficulty of both game modes increase specifically as a function of the num
 
 ### Building 
 
-Designed to run on linux. Following programs and libraries are required to compile the project:
+Designed for linux. Following programs and libraries are required to compile the project:
 ```
 • make (4.1-9.1ubuntu1)
 • g++ (4:7.3.0-3ubuntu2)
 • libsfml-dev (2.4.2+dfsg-4)
 ```
-1. On terminal go to the project directory (Directory should contain directories: ```doc```, ```plan```, ```res```, ```src``` and files ```Makefile```, ```README.md```.
+1. Go to the project directory (Directory should contain: `/doc`, `/res`, `/src`, `Makefile`, `README.md`.
 2. In the directory, use  command: 
 ``` make ```
 3. To run the program, use command: 
