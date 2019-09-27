@@ -16,15 +16,10 @@ The game keeps track of the top-10 scores and the names of those players. This i
 
 The difficulty of both game modes increase specifically as a function of the number of eliminations and not of the number of eliminated rows. Tetris spawns the same distribution of blocks but the falling speed increases. The falling speed in Pentis stays constant but the 5-tile-size blocks starts to spawn more frequently. Tetris is faster that Pentis, but only has 7 different blocks. Pentis has 29 different blocks overall and is considered to be a more challenging game mode.
 
-## Instructions for building and using
 
-### Software prerequisites
+### Building 
 
-Built with Python 3.7 and designed to run on Linux.
-
-### Compiling the program
-
-Following programs and libraries are required to compile the project:
+Designed to run on linux. Following programs and libraries are required to compile the project:
 ```
 • make (4.1-9.1ubuntu1)
 • g++ (4:7.3.0-3ubuntu2)
