@@ -20,7 +20,7 @@ The difficulty of both game modes increase specifically as a function of the num
 
 ### Software prerequisites
 
-Pentis was built on Python 3.7 and designed to run on a Linux operating system.
+Built with Python 3.7 and designed to run on Linux.
 
 ### Compiling the program
 
