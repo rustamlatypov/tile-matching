@@ -25,9 +25,9 @@ Designed for linux. Following programs and libraries are required to compile the
 • g++ (4:7.3.0-3ubuntu2)
 • libsfml-dev (2.4.2+dfsg-4)
 ```
-2. Run ` make `.
-3. Run `./main`.
-4. Clean up directory by running `make clean`.
+1. Run ` make `.
+2. Run `./main`.
+3. Clean up directory by running `make clean`.
 
 ## Authors
 
