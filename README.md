@@ -31,8 +31,8 @@ Designed for linux. Following programs and libraries are required to compile the
 
 ## Authors
 
-- Software architecture and UI design: [Rustam Latypov](mailto:rustam.latypov@aalto.fi)
-- OS compatibility and UI design: [Visa Lintunen](mailto:visa.lintunen@aalto.fi)
-- Game mechanics and [SRS](https://tetris.wiki/SRS) integrity: [Kalle Alaluusua](mailto:kalle.alaluusua@aalto.fi)
-- Game mechanics and UX design: [Juho Heimonen](mailto:juho.heimonen@aalto.fi)
+- Software architecture and UI design: [Rustam Latypov](mailto:rlatypov1337@gmail.fi)
+- OS compatibility and UI design: Visa Lintunen
+- Game mechanics and [SRS](https://tetris.wiki/SRS) integrity: Kalle Alaluusua
+- Game mechanics and UX design: Juho Heimonen
 
