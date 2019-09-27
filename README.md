@@ -4,7 +4,7 @@ Project for the Aalto University course ELEC-A7151 - Object oriented programming
 
 Developed during November - December, 2018.
 
-## Introduction
+## Description
 
 This tile-matching project is a classic Tetris with a Pentis game expansion. Tetris is a well known tile-matching puzzle video game where the players objective is to guide 4-tile-size blocks falling from the upper edge of the screen and try to keep the stack as low as possible. Pentis introduces 1-, 2-, 3-, and 5-tile-size blocks into the game and its difficulty increases differently than in Tetris.
 
