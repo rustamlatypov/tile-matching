@@ -19,7 +19,7 @@ The difficulty of both game modes increases specifically as a function of the nu
 
 ## Building and running
 
-Designed for Linux. Following programs and libraries are required to compile the project:
+Designed for Linux. Following tools and libraries are required:
 ```
 • make (4.1-9.1ubuntu1)
 • g++ (4:7.3.0-3ubuntu2)
