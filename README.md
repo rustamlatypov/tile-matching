@@ -19,7 +19,7 @@ The difficulty of both game modes increases specifically as a function of the nu
 
 ## Building and running
 
-Built for Linux using `sfml 2.5.1`. Run
+Built for Linux with `sfml 2.5.1`. Run
 
 ```
 make
