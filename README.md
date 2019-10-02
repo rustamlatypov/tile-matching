@@ -21,9 +21,11 @@ The difficulty of both game modes increases specifically as a function of the nu
 
 Built for Linux using `sfml 2.5.1`.
 
-1. Run ` make `
-2. Run `./main`
-3. Clean up directory by running `make clean`
+```
+$ make
+$ ./main
+$ make clean
+```
 
 ## Authors
 
