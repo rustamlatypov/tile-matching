@@ -23,7 +23,3 @@ $(EXECUTABLE): $(OBJECTS)
 
 clean:
 	$(RM) $(OBJECTS) $(EXECUTABLE)
-
-#"make" to compile
-#"make clean" to remove .o-files
-#"./main" to execute program
